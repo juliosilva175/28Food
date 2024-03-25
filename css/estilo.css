@@ -1,12 +1,14 @@
 /* o corpo completo da pagina*/
 body{
-    background-color: aqua;
+    background-color: #efb78e
+    padding: 0px ;
+    margin:  0px;
 }
 .container{
       display: flex;
       justify-content:space-between ;
-      background-color: rgb(220, 202, 177) ;
-      height: 2000px;
+      background-color: #3e7f8d
+      
 }
 .logo{
       display:flex;
@@ -15,26 +17,83 @@ body{
 }
 .menu{
     display: flex;
-    justify-content: baseline;
+    margin-top: 25px;
+    justify-content: ;
     align-items: center;
     border: 1px solid black;
-    width: 700px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
+}
+.menu a{
+
+   border-radius: 20px;
+   padding: 20px 30px 30px 30px
+   color: whitesmoke;
+   text-decoration: none;
+
+}
+
+.menu a:hover{
+    background-color: #cdb0ac;
+    color: #1e7387;
 }
 .social{
-border: 1px; solid black;
+display: flex
+justify-content
 width: 50px;
 height:50px ;
+
+
 }
-butto.menu{
-    width: 100px;
-    height: 50px;
-    background-color: #a5c5c3;
-    border-radius: 50px;
-   
+.fb:hover{
+    opacity: o.7;
 }
-@font-face{
-    font-family:curely-freetypeface;
-    src: url()
+.in:hover{
+    opacity: 0.7;
 }
+/*barra de pesquisa*/
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.pesquisa imput[type=text]{ 
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid #3e7f8d;
+    background-color: #focd;
+    color:whitesmoke;
+}
+.pesquisa ::placeholder{
+    color: rgb(181, 181, 181);
+}
+
+.pesquisa input[type=submit]{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #3e7f8d;
+    color: whitesmoke;
+    border: #3e7f8d 3px solid;
+
+    background-image: url("../incons/icons8-search-50.png");
+    background-size: 25px;
+    background-repeat; no-repeat;
+    padding: 15px 15px 15px 15px;
+    height: 30px;
+    width: 30px; 
+}
+
+.pesquisa input[type=submit]:hover{
+ opacity: 0.7
+}
+@import url('https://fonts.cdnfonts.com/css/curely');
+
 
