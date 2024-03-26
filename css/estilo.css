@@ -94,6 +94,86 @@ height:50px ;
 .pesquisa input[type=submit]:hover{
  opacity: 0.7
 }
+.99{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:#3e7f8d;
+
+}
+/* tratamento do slideshow*/
+.myslides{display:nome;}
+
+.slideshow-container{
+    max-width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.numbertext{
+    color: #3e7f8d;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+}
+.text{
+    color: whitesmoke ;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    botton: 8px;
+    width: 200px;
+    text-align: right;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+}
+
+.active{
+    background-color: grey;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s
+}
+/* receitas box*/
+.conteiner-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+}
+.receitabox img:hover{
+   opacity: 0.7; 
+}
+
+.rec-texto{
+    color: whitesmoke;
+    font-size: 22px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+/*webkit*/
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate()
+
+@keyframes fade{
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+
+
 @import url('https://fonts.cdnfonts.com/css/curely');
 
 
