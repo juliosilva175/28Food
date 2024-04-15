@@ -1,9 +1,10 @@
 /* o corpo completo da pagina*/
 body{
-    background-color: #efb78e
-    padding: 0px ;
+    background-color: #eed2c5
+    padding; 0px;
     margin:  0px;
-}
+} 
+    
 .container{
       display: flex;
       justify-content:space-between ;
@@ -18,30 +19,32 @@ body{
 .menu{
     display: flex;
     margin-top: 25px;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     border: 1px solid black;
     width: 100px;
-    height: 30px;
+    height: 40px;
+    font-family: Curely, sans-serif;
+    font-size: 30px;
 }
 .menu a{
-
+   margin-top: 10;
    border-radius: 20px;
-   padding: 20px 30px 30px 30px
-   color: whitesmoke;
+   padding: 10px 15px 15px 15px
+   color; whitesmoke;
    text-decoration: none;
 
 }
 
 .menu a:hover{
-    background-color: #cdb0ac;
+    background-color: #f5dbd7;
     color: #1e7387;
 }
 .social{
 display: flex
-justify-content
+justify-content: space-between;
 width: 50px;
-height:50px ;
+height: 50px ;
 
 
 }
@@ -65,9 +68,9 @@ height:50px ;
     width: 700px;
     height: 30px;
     border-radius: 20px;
-    border: solid #3e7f8d;
-    background-color: #focd;
-    color:whitesmoke;
+    border: solid whitesmoke 3px;
+    background-color: #faf5f3;
+    color: #1e7387;
 }
 .pesquisa ::placeholder{
     color: rgb(181, 181, 181);
@@ -79,7 +82,7 @@ height:50px ;
     justify-content: center;
     margin-left: 10px;
     border-radius: 20px;
-    background-color: #3e7f8d;
+    background-color: #50838f;
     color: whitesmoke;
     border: #3e7f8d 3px solid;
 
@@ -94,7 +97,12 @@ height:50px ;
 .pesquisa input[type=submit]:hover{
  opacity: 0.7
 }
-.99{
+
+.pesquisa input[tyoe=text]:focus{
+    outline: none;
+}
+/* Text H1 */
+.a99{
     display: flex;
     justify-content: center;
 }
@@ -125,15 +133,19 @@ h1{
     padding: 10px 10px;
     position: absolute;
     botton: 8px;
-    width: 200px;
-    text-align: right;
+    width: 100px;
+    text-align: center;
 }
 
 .dot{
     height: 20px;
     width: 20px;
     background-color: whitesmoke;
+    border-radius: 50%;
+    display: imline-block;
+    transition: background-color 0.6s ease;
 }
+
 
 .active{
     background-color: grey;
@@ -147,25 +159,15 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 
 }
 
 
-}
-.receitabox img:hover{
-   opacity: 0.7; 
-}
 
-.rec-texto{
-    color: whitesmoke;
-    font-size: 22px;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-}
-/*webkit*/
--webkit-transform: translate(-50%, -50%);
--ms-transform: translate()
+
+
+  
 
 @keyframes fade{
     from{opacity: 0.4;}
