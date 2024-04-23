@@ -13,7 +13,8 @@ body{
 }
 .logo{
       display:flex;
-      justify-content: space-between;
+      justify-content: right;
+      
       
 }
 .menu{
@@ -23,7 +24,7 @@ body{
     align-items: center;
     border: 1px solid black;
     width: 100px;
-    height: 40px;
+    height: 30px;
     font-family: Curely, sans-serif;
     font-size: 30px;
 }
@@ -66,12 +67,12 @@ height: 50px ;
 .pesquisa imput[type=text]{ 
     display: flex;
     justify-content: center;
-    width: 700px;
-    height: 30px;
+    width: 800px;
+    height: 20px;
     border-radius: 20px;
-    border: solid whitesmoke 3px;
-    background-color: #faf5f3;
-    color: #1e7387;
+    border: solid whitesmoke;
+    background-color: whitesmoke;
+    color: whitesmoke;
 }
 .pesquisa ::placeholder{
     color: rgb(181, 181, 181);
@@ -86,6 +87,7 @@ height: 50px ;
     background-color: #50838f;
     color: whitesmoke;
     border: #3e7f8d 3px solid;
+    cursor: pointer;
 
     background-image: url("../incons/icons8-search-50.png");
     background-size: 25px;
@@ -99,9 +101,7 @@ height: 50px ;
  opacity: 0.7
 }
 
-.pesquisa input[tyoe=text]:focus{
-    outline: none;
-}
+
 /* Text H1 */
 .a99{
     display: flex;
@@ -121,12 +121,18 @@ h1{
     justify-content: center;
     
 }
+.slideimg {
+    border-radius: 20;
+
+}
 .numbertext{
     color: #3e7f8d;
     font-size: 18px;
     padding: 10px 10px;
     position: absolute;
     top: 0;
+
+
 }
 .text{
     color: whitesmoke ;
@@ -160,9 +166,66 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 20px;
+    color: #1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 80px;
+    font-style:italic;
+    text-align: center;
     
 
 }
+/*Rodape Página*/
+
+.rodape{
+    font-size: 22px;
+    background-color: #1e7387;
+    display: flex;
+    justify-content: left;
+    color: beige;
+}
+.map h1, p{
+    color: beige;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-container{
+    float: left;
+    font-size: medium;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.receitas-imagem{
+    border-radius: 100%;
+}
+
+.rodape text{
+    margin-top: 250px;
+}
+
+.rodape a{
+    align-items: center;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.texto-sobre{
+   background-color: #efb79e;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 40px;
+   color: black;
+   margin: 20px;
+   font-style: italic;
+   width: 1800px;
+   
+}
+.texto-sobre h1{
+    font-size: 50px;
+}
+
 
 
 
