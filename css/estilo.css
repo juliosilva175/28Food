@@ -13,7 +13,7 @@ body{
 }
 .logo{
       display:flex;
-      justify-content: right;
+      justify-content: space-between;
       
       
 }
@@ -64,17 +64,17 @@ height: 50px ;
 }
 
 
-.pesquisa imput[type=text]{ 
+.pesquisa input[type=text]{ 
     display: flex;
     justify-content: center;
-    width: 800px;
-    height: 20px;
+    width: 700px;
+    height: 30px;
     border-radius: 20px;
-    border: solid whitesmoke;
-    background-color: whitesmoke;
-    color: whitesmoke;
+    border: solid whitesmoke 3px;
+    background-color: #faf5f3;
+    color: #1e7387;
 }
-.pesquisa ::placeholder{
+.pesquisa:placeholder{
     color: rgb(181, 181, 181);
 }
 
@@ -166,10 +166,10 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 20px;
+    font-size: 25px;
     color: #1e7387;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 80px;
+    margin-bottom: 210px;
     font-style:italic;
     text-align: center;
     
